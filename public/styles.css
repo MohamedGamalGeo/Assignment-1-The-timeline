@@ -1,0 +1,116 @@
+/* Basic styling for the page */
+body {
+    font-family: 'Times New Roman', Times;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #444;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Timeline container styling */
+.timeline-container {
+    width: 100%;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for individual user data as a card */
+.user-card {
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* User name styling */
+.user-card h2 {
+    font-size: 1.4rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Created date styling */
+.user-card h4 {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 5px 0;
+}
+
+/* Message styling */
+.user-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0 0;
+}
+
+/* Styling for the 'no data' message */
+.no-data {
+    font-size: 1.5rem;
+    color: #888;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Styling for the user form */
+.user-form {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.user-form label {
+    font-size: 0.9rem;
+    color: #555;
+    display: block;
+    margin-top: 10px;
+}
+
+.user-form input[type="text"],
+.user-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.user-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-form button:hover {
+    background-color: #0056b3;
+}
